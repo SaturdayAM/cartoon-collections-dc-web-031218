@@ -3,6 +3,7 @@ def roll_call_dwarves(arr)# code an argument here
   i = 1
   arr.each do |name|
     puts "#{i}. #{name}"
+    i+=1
   end
 end
 
